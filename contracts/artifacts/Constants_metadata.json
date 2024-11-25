@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "MY_ADDRESS",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MY_UINT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Constants are variables that cannot be modified. Their value is hard coded and using constants can save gas cost.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/11_Constants.sol": "Constants"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/11_Constants.sol": {
+			"keccak256": "0x8c8d1f3e84824638393d46465801912827a9eab37407055832f9e02941511f97",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://81f6e4425c8cb923d5e737bcee9183c662df8bf69a0aa4ed02c5dff03782bf3c",
+				"dweb:/ipfs/QmYfVjq1rE9HNf3wJvbNrXLvLNNEiRPepgFM6x94MWkgUE"
+			]
+		}
+	},
+	"version": 1
+}

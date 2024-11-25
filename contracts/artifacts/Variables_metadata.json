@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "doSomething",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "text",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "There are 3 types of variables in Solidity local declared inside a function not stored on the blockchain state declared outside a function stored on the blockchain global (provides information about the blockchain)*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/10_Variables.sol": "Variables"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/10_Variables.sol": {
+			"keccak256": "0xc5dd52d9c654cc1295d789ae4e6a672ff0eb80a8068ddd4d7b1e5b4987f86f40",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8de82af34a93d522b01a0cb624017ca4ad7e53036a0f341b8a4f9b76fc398dc",
+				"dweb:/ipfs/QmSb5GEM1QE5yiWsrQbabpgZv2UKtcTkSDz5yk3EqCLjMq"
+			]
+		}
+	},
+	"version": 1
+}
